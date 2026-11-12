@@ -1,0 +1,10 @@
+{
+  "message": "Bad request (bad request data)",
+  "meta": {
+    "error": "invalid_parameter",
+    "message": "Invalid parameter: callback_url must be present",
+    "messages": [
+      "Invalid parameter: callback_url must be present"
+    ]
+  }
+}

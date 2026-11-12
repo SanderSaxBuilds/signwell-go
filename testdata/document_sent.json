@@ -1,0 +1,140 @@
+{
+  "id": "d7955008-c997-466c-957d-117433a84c36",
+  "archived": false,
+  "copied_contacts": [
+    {
+      "email": "johnathan@greenfelder-homenick.example",
+      "name": "Taylor Renner MD"
+    }
+  ],
+  "created_at": "2026-09-29T15:21:44Z",
+  "custom_requester_email": "isa_durgan@pfannerstill.test",
+  "custom_requester_name": "Anakin Skywalker",
+  "decline_redirect_url": "https://www.domain.com/decline_path/",
+  "embedded_edit_url": "https://www.signwell.com/edit/document/2e7159fd-e621-44da-bc9a-40cafa00199a/",
+  "embedded_preview_url": null,
+  "error_message": null,
+  "fields": [
+    [
+      {
+        "api_id": "CheckBox_8",
+        "height": "13.0",
+        "required": true,
+        "type": "checkbox",
+        "value": null,
+        "width": "13.0",
+        "x": 1.1,
+        "y": 1.1,
+        "name": null,
+        "page": 1,
+        "recipient_id": null
+      },
+      {
+        "api_id": "CheckBox_9",
+        "height": "13.0",
+        "required": true,
+        "type": "checkbox",
+        "value": null,
+        "width": "13.0",
+        "x": 1.1,
+        "y": 1.1,
+        "name": null,
+        "page": 1,
+        "recipient_id": null
+      },
+      {
+        "api_id": "Signature_7",
+        "height": "32.0",
+        "required": true,
+        "type": "signature",
+        "value": null,
+        "width": "112.0",
+        "x": 1.1,
+        "y": 1.1,
+        "page": 1,
+        "recipient_id": "661f061f-8436-4c05-8e22-b8ff9cfb1f93"
+      }
+    ]
+  ],
+  "labels": [
+    {
+      "id": "a941a0a9-886b-4395-bbe8-8238fc0b346f",
+      "name": "My First Label"
+    },
+    {
+      "id": "46579fff-93c8-4b2a-9d55-56e9723d114d",
+      "name": "My Second Label"
+    },
+    {
+      "id": "9f5e4955-f139-49ac-9c47-f891af9dd3bd",
+      "name": "My Third Label"
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "key1": "value1",
+    "key2": "value2"
+  },
+  "name": "Agreement",
+  "recipients": [
+    {
+      "id": "661f061f-8436-4c05-8e22-b8ff9cfb1f93",
+      "attachment_requests": [],
+      "email": "wenona.gerlach@rohan-daugherty.test",
+      "message": null,
+      "name": "Fatimah Rolfson II",
+      "passcode": null,
+      "send_email_delay": null,
+      "signing_order": 7,
+      "status": "draft",
+      "subject": null,
+      "bounced": null,
+      "bounced_details": null,
+      "send_email": null,
+      "signing_url": "https://www.signwell.com/docs/2756204beb/",
+      "delivery_method": "email"
+    },
+    {
+      "id": "9c1f44e1-d046-43f6-a794-e8bc1f9bc56d",
+      "attachment_requests": [],
+      "email": "ed_boyer@mcdermott.example",
+      "message": null,
+      "name": "Amb. Rebbecca Jones",
+      "passcode": null,
+      "send_email_delay": null,
+      "signing_order": 8,
+      "status": "draft",
+      "subject": null,
+      "bounced": null,
+      "bounced_details": null,
+      "send_email": null,
+      "signing_url": "https://www.signwell.com/docs/5dacf9d699/",
+      "delivery_method": "email"
+    }
+  ],
+  "subject": "Normal subject",
+  "test_mode": false,
+  "updated_at": "2026-09-29T15:21:44Z",
+  "decline_message": null,
+  "api_application_id": null,
+  "cfr_part11": false,
+  "cfr_part11_signing_mode": null,
+  "embedded": null,
+  "allow_decline": true,
+  "allow_reassign": true,
+  "apply_signing_order": false,
+  "embedded_signing": false,
+  "expires_in": 365,
+  "message": "Normal Body",
+  "reminders": true,
+  "requester_email_address": "19.arthricia@stroman.example",
+  "redirect_url": "https://www.domain.com/redirect_path/",
+  "status": "Draft",
+  "files": [
+    {
+      "name": "sunt.jpg",
+      "pages_number": 1
+    }
+  ],
+  "conditional_rules": []
+}

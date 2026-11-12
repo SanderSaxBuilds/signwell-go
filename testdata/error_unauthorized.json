@@ -1,0 +1,10 @@
+{
+  "message": "Missing or invalid authorization key",
+  "meta": {
+    "error": "api_key_unauthorized_error",
+    "message": "Not valid authorization token",
+    "messages": [
+      "Not valid authorization token"
+    ]
+  }
+}

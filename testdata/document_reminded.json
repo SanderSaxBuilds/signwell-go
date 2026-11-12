@@ -1,0 +1,166 @@
+{
+  "id": "b58e25b8-a20f-4b06-b6b9-18b7993b33ea",
+  "archived": false,
+  "created_at": "2026-09-29T15:21:50Z",
+  "decline_message": null,
+  "embedded_edit_url": null,
+  "error_message": null,
+  "embedded_preview_url": "https://www.signwell.com/preview/document/b58e25b8-a20f-4b06-b6b9-18b7993b33ea/",
+  "language": "en",
+  "name": "vegetarian-twilight/dolor.ods",
+  "requester_email_address": "jr_morty_52@cummerata.example",
+  "status": "Sent",
+  "test_mode": false,
+  "updated_at": "2026-09-29T15:21:50Z",
+  "cfr_part11": false,
+  "cfr_part11_signing_mode": null,
+  "allow_decline": false,
+  "allow_reassign": true,
+  "api_application_id": null,
+  "custom_requester_email": "lane@goodwin.example",
+  "custom_requester_name": "Rune Haako",
+  "decline_redirect_url": "http://schuster.example/bennie_auer",
+  "embedded_signing": false,
+  "expires_in": 10,
+  "metadata": {
+    "dolores": "deserunt",
+    "necessitatibus": "ipsam"
+  },
+  "redirect_url": "http://wintheiser-adams.example/bruno_little",
+  "reminders": false,
+  "embedded": null,
+  "apply_signing_order": false,
+  "message": "<p>Hey there,</p><p>&nbsp;</p><p>Please review and complete this document. You can click on the document below to get started.</p>",
+  "subject": "Please complete vegetarian-twilight/dolor.ods",
+  "labels": [
+    {
+      "id": "a3ace7dd-1ea7-4b35-9234-fa19f692abd7",
+      "name": "Wilbur Feest"
+    },
+    {
+      "id": "b93e1b81-540c-4e1f-ae06-e39f289b0d16",
+      "name": "Milan Roob"
+    }
+  ],
+  "fields": [
+    [
+      {
+        "api_id": "CheckBox_41",
+        "height": "13.0",
+        "page": 1,
+        "required": true,
+        "type": "checkbox",
+        "value": null,
+        "width": "13.0",
+        "x": 1.1,
+        "y": 1.1,
+        "name": null,
+        "recipient_id": null,
+        "signing_elements_group_id": "bcf5889e-113c-45c3-afd3-0e0325138797"
+      },
+      {
+        "api_id": "CheckBox_42",
+        "height": "13.0",
+        "page": 1,
+        "required": true,
+        "type": "checkbox",
+        "value": null,
+        "width": "13.0",
+        "x": 1.1,
+        "y": 1.1,
+        "name": null,
+        "recipient_id": null
+      },
+      {
+        "api_id": "Signature_40",
+        "height": "32.0",
+        "page": 1,
+        "required": true,
+        "type": "signature",
+        "value": null,
+        "width": "112.0",
+        "x": 1.1,
+        "y": 1.1,
+        "recipient_id": "dde32e2c-8f11-4593-93e9-4b0c3d95fca6"
+      }
+    ]
+  ],
+  "files": [
+    {
+      "name": "laudantium.xlsx",
+      "pages_number": 1
+    }
+  ],
+  "copied_contacts": [
+    {
+      "name": "Odell Buckridge",
+      "email": "angelo@mraz.example"
+    }
+  ],
+  "recipients": [
+    {
+      "delivery_method": "email",
+      "email": "almeta@dietrich.test",
+      "id": "dde32e2c-8f11-4593-93e9-4b0c3d95fca6",
+      "message": null,
+      "name": "Tyesha Smitham",
+      "passcode": null,
+      "send_email": null,
+      "send_email_delay": null,
+      "status": null,
+      "subject": null,
+      "signing_order": 40,
+      "signing_url": "https://www.signwell.com/docs/5c6ac39ea6/",
+      "bounced": null,
+      "bounced_details": null,
+      "passcode_delivery": {
+        "enabled": false,
+        "methods": null,
+        "expire_after_access": false
+      },
+      "attachment_requests": [
+        {
+          "name": "marine_vegetarian/provident.tiff",
+          "required": true,
+          "url": "https://www.signwell.com/document_attachments/7alyA5DyjBtrdZXO3yoPIZLaPNz/?access=22ee52e6-05c2-45a3-b593-7c8637555edd"
+        }
+      ]
+    },
+    {
+      "delivery_method": "email",
+      "email": "jeri.leannon@windler.example",
+      "id": "55b16e47-1945-4e77-8bff-c3e2b692f352",
+      "message": null,
+      "name": "Sen. Katharina Koelpin",
+      "passcode": null,
+      "send_email": null,
+      "send_email_delay": null,
+      "status": null,
+      "subject": null,
+      "signing_order": 41,
+      "signing_url": "https://www.signwell.com/docs/dc03d7ab6a/",
+      "bounced": null,
+      "bounced_details": null,
+      "passcode_delivery": {
+        "enabled": false,
+        "methods": null,
+        "expire_after_access": false
+      },
+      "attachment_requests": []
+    }
+  ],
+  "checkbox_groups": [
+    {
+      "id": "bcf5889e-113c-45c3-afd3-0e0325138797",
+      "group_name": null,
+      "recipient_id": null,
+      "checkbox_ids": [
+        "CheckBox_41"
+      ],
+      "validation": null,
+      "required": false
+    }
+  ],
+  "conditional_rules": [],
+  "conditional_logic_decisions": []
+}

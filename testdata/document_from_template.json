@@ -1,0 +1,348 @@
+{
+  "id": "95a49223-3955-470a-8da0-9d8f059c8c22",
+  "archived": false,
+  "created_at": "2026-09-29T15:21:43Z",
+  "decline_message": null,
+  "embedded_edit_url": "https://www.signwell.com/edit/document/76aab0ca-959f-469a-a901-e3aaa9e24883/",
+  "error_message": null,
+  "embedded_preview_url": null,
+  "language": "en",
+  "name": "Agreement",
+  "requester_email_address": "requester@domain.com",
+  "status": "Created",
+  "test_mode": false,
+  "updated_at": "2026-09-29T15:21:43Z",
+  "template_ids": [
+    "8ed515fe-9981-49fb-846e-d25b0f207e73",
+    "dc6eadb2-c0ad-4524-b9ce-e435a3eb27b0"
+  ],
+  "cfr_part11": false,
+  "cfr_part11_signing_mode": null,
+  "allow_decline": true,
+  "allow_reassign": true,
+  "api_application_id": null,
+  "custom_requester_email": "requester@domain.com",
+  "custom_requester_name": "Requester",
+  "decline_redirect_url": "https://www.domain.com/decline_path/",
+  "embedded_signing": false,
+  "expires_in": 365,
+  "metadata": {
+    "key1": "value1",
+    "key2": "value2"
+  },
+  "redirect_url": "https://www.domain.com/redirect_path/",
+  "reminders": true,
+  "embedded": null,
+  "apply_signing_order": false,
+  "message": "Normal Body",
+  "subject": "Normal subject",
+  "labels": [],
+  "fields": [
+    [
+      {
+        "api_id": "DateField_2",
+        "height": "19.0",
+        "page": 1,
+        "required": false,
+        "type": "date",
+        "value": null,
+        "width": "86.0",
+        "x": 1.1,
+        "y": 1.1,
+        "date_format": "MM/DD/YYYY",
+        "formula": "",
+        "lock_sign_date": true,
+        "recipient_id": "recipient_1"
+      },
+      {
+        "api_id": "Signature_1",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "signature",
+        "value": "",
+        "width": "86.0",
+        "x": 1.1,
+        "y": 1.1,
+        "recipient_id": "document_sender"
+      },
+      {
+        "api_id": "TextField_1",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "text",
+        "value": "a_valid_email@domain.com",
+        "width": "86.0",
+        "x": 1.1,
+        "y": 1.1,
+        "fixed_width": false,
+        "label": "",
+        "validation": "no_text_validation",
+        "recipient_id": "recipient_1"
+      },
+      {
+        "api_id": "DateField_1",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "date",
+        "value": "05/06/2021",
+        "width": "86.0",
+        "x": 1.1,
+        "y": 1.1,
+        "date_format": "MM/DD/YYYY",
+        "formula": "",
+        "lock_sign_date": false,
+        "recipient_id": "recipient_1"
+      },
+      {
+        "api_id": "CheckBox_1",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "checkbox",
+        "value": "t",
+        "width": "86.0",
+        "x": 1.1,
+        "y": 1.1,
+        "name": null,
+        "recipient_id": "recipient_1"
+      }
+    ],
+    [
+      {
+        "api_id": "Initials_1",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "initials",
+        "value": "",
+        "width": "86.0",
+        "x": 1.1,
+        "y": 1.1,
+        "recipient_id": "document_sender"
+      }
+    ],
+    [
+      {
+        "api_id": "DateField_1_1",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "date",
+        "value": null,
+        "width": "86.0",
+        "x": 230,
+        "y": 60,
+        "date_format": "DD/MM/YYYY",
+        "formula": "",
+        "lock_sign_date": true,
+        "recipient_id": "recipient_1"
+      },
+      {
+        "api_id": "DateField_2_1",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "date",
+        "value": "05/06/2021",
+        "width": "86.0",
+        "x": 230,
+        "y": 120,
+        "date_format": "MM/DD/YYYY",
+        "formula": "",
+        "lock_sign_date": false,
+        "recipient_id": "recipient_1"
+      }
+    ],
+    [
+      {
+        "api_id": "Signature_1_1",
+        "height": "32.0",
+        "page": 2,
+        "required": true,
+        "type": "signature",
+        "value": null,
+        "width": "112.0",
+        "x": 260,
+        "y": 80,
+        "recipient_id": "recipient_2"
+      },
+      {
+        "api_id": "CheckBox_3",
+        "height": "13.0",
+        "page": 1,
+        "required": true,
+        "type": "checkbox",
+        "value": "t",
+        "width": "13.0",
+        "x": 260,
+        "y": 80,
+        "name": null,
+        "recipient_id": "recipient_2"
+      },
+      {
+        "api_id": "Initials_4",
+        "height": "32.0",
+        "page": 2,
+        "required": true,
+        "type": "initials",
+        "value": null,
+        "width": "44.0",
+        "x": 260,
+        "y": 80,
+        "recipient_id": "recipient_2"
+      },
+      {
+        "api_id": "TextField_5",
+        "height": "19.0",
+        "page": 1,
+        "required": true,
+        "type": "text",
+        "value": "123456",
+        "width": "86.0",
+        "x": 260,
+        "y": 80,
+        "fixed_width": true,
+        "label": "label",
+        "validation": "numbers",
+        "recipient_id": "recipient_2"
+      }
+    ]
+  ],
+  "files": [
+    {
+      "name": "repellendus.docx",
+      "pages_number": 2
+    },
+    {
+      "name": "occaecati.png",
+      "pages_number": 2
+    },
+    {
+      "name": "filename1.pdf",
+      "pages_number": 0
+    },
+    {
+      "name": "filename2.pdf",
+      "pages_number": 0
+    }
+  ],
+  "copied_contacts": [
+    {
+      "name": "CC one",
+      "email": "cc1@domain.com"
+    },
+    {
+      "name": "CC 2",
+      "email": "cc2@domain.com"
+    }
+  ],
+  "recipients": [
+    {
+      "delivery_method": "email",
+      "email": "document_sender@domain.com",
+      "id": "document_sender",
+      "message": null,
+      "name": "Recipient 0",
+      "passcode": "123",
+      "send_email": false,
+      "send_email_delay": 0,
+      "status": "created",
+      "subject": null,
+      "signing_order": 1,
+      "signing_url": "https://www.signwell.com/docs/c0c8e86467/",
+      "bounced": null,
+      "bounced_details": null,
+      "placeholder_name": "Document Sender",
+      "passcode_delivery": {
+        "enabled": false,
+        "methods": null,
+        "expire_after_access": false
+      },
+      "attachment_requests": []
+    },
+    {
+      "delivery_method": "email",
+      "email": "recipient_1@domain.com",
+      "id": "recipient_1",
+      "message": null,
+      "name": "Recipient 1",
+      "passcode": null,
+      "send_email": false,
+      "send_email_delay": 0,
+      "status": "created",
+      "subject": null,
+      "signing_order": 2,
+      "signing_url": "https://www.signwell.com/docs/d072999784/",
+      "bounced": null,
+      "bounced_details": null,
+      "placeholder_name": "Placeholder 1",
+      "passcode_delivery": {
+        "enabled": false,
+        "methods": null,
+        "expire_after_access": false
+      },
+      "attachment_requests": [
+        {
+          "name": "normal name",
+          "required": true,
+          "url": "https://www.signwell.com/document_attachments/3PjWL7zZEGFJJGpXZn8Eu4bpnwX/?access=259d3090-ddfb-46cf-9761-52d24a5129e0"
+        }
+      ]
+    },
+    {
+      "delivery_method": "email",
+      "email": "recipient_2@domain.com",
+      "id": "recipient_2",
+      "message": null,
+      "name": "Recipient 2",
+      "passcode": null,
+      "send_email": false,
+      "send_email_delay": 0,
+      "status": "created",
+      "subject": null,
+      "signing_order": 3,
+      "signing_url": "https://www.signwell.com/docs/b05f7be651/",
+      "bounced": null,
+      "bounced_details": null,
+      "placeholder_name": "Placeholder 2",
+      "passcode_delivery": {
+        "enabled": false,
+        "methods": null,
+        "expire_after_access": false
+      },
+      "attachment_requests": [
+        {
+          "name": "Driver License",
+          "required": false,
+          "url": "https://www.signwell.com/document_attachments/zMORBG0M1esd2E8XbXDzsqjl56DO/?access=259d3090-ddfb-46cf-9761-52d24a5129e0"
+        }
+      ]
+    }
+  ],
+  "checkbox_groups": [],
+  "conditional_rules": [
+    {
+      "id": "dd22c10c-e06f-4607-be9b-c88b4103d20d",
+      "target_id": "DateField_1",
+      "action_type": "require",
+      "action_field_ids": [
+        "DateField_2"
+      ],
+      "conditions": [
+        {
+          "condition_type": "any_of",
+          "status": "completed",
+          "join_operator": "and_operator",
+          "field_api_ids": [
+            "DateField_1"
+          ],
+          "position": 1
+        }
+      ]
+    }
+  ],
+  "conditional_logic_decisions": []
+}

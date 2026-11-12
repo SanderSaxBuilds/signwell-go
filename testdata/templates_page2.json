@@ -1,0 +1,238 @@
+{
+  "templates": [
+    {
+      "id": "d8012784-8934-4de3-ac16-ae131a42eab9",
+      "archived": false,
+      "created_at": "2026-09-29T15:21:56Z",
+      "embedded_edit_url": "https://www.signwell.com/edit/template/a6d987c8-4a02-4ef6-9672-b5a886bc9168/",
+      "language": "en",
+      "name": "Agreement",
+      "requester_email_address": "eyeholes_96_man@mann-kuvalis.test",
+      "status": "Created",
+      "template_link": "https://www.signwell.com/new_doc/CBnxWrg8U3GVJVIx/",
+      "updated_at": "2026-09-29T15:21:56Z",
+      "allow_decline": true,
+      "allow_reassign": null,
+      "api_application_id": null,
+      "decline_redirect_url": "https://www.domain.com/decline_path/",
+      "expires_in": 365,
+      "redirect_url": "https://www.domain.com/redirect_path/",
+      "reminders": true,
+      "metadata": {
+        "key1": "value1",
+        "key2": "value2"
+      },
+      "apply_signing_order": false,
+      "message": "Normal Body",
+      "subject": "Normal subject",
+      "labels": [
+        {
+          "id": "d6933711-7938-4ab2-9fe2-3bc6a171f5a8",
+          "name": "My First Label"
+        },
+        {
+          "id": "f4c208fc-4892-4b5d-ae4b-ccb82abf43ee",
+          "name": "My Second Label"
+        },
+        {
+          "id": "45f73d1f-e5e3-4f95-8c07-302273abd2f0",
+          "name": "My Third Label"
+        }
+      ],
+      "fields": [
+        [
+          {
+            "api_id": "DateField_1",
+            "height": "19.0",
+            "page": 1,
+            "required": true,
+            "type": "date",
+            "value": "2021/05/06",
+            "width": "86.0",
+            "x": 230,
+            "y": 60,
+            "date_format": "YYYY/MM/DD",
+            "formula": "",
+            "lock_sign_date": true,
+            "placeholder_name": "Placeholder One"
+          }
+        ],
+        [
+          {
+            "api_id": "Signature_2",
+            "height": "32.0",
+            "page": 1,
+            "required": true,
+            "type": "signature",
+            "value": null,
+            "width": "112.0",
+            "x": 260,
+            "y": 80,
+            "placeholder_name": "Placeholder 2"
+          },
+          {
+            "api_id": "CheckBox_4",
+            "height": "13.0",
+            "page": 1,
+            "required": true,
+            "type": "checkbox",
+            "value": "t",
+            "width": "13.0",
+            "x": 270,
+            "y": 80,
+            "name": null,
+            "placeholder_name": "Placeholder 2"
+          },
+          {
+            "api_id": "Initials_4",
+            "height": "32.0",
+            "page": 1,
+            "required": true,
+            "type": "initials",
+            "value": null,
+            "width": "44.0",
+            "x": 260,
+            "y": 80,
+            "placeholder_name": "Placeholder 2"
+          },
+          {
+            "api_id": "TextField_5",
+            "height": "19.0",
+            "page": 1,
+            "required": true,
+            "type": "text",
+            "value": "1",
+            "width": "86.0",
+            "x": 260,
+            "y": 80,
+            "fixed_width": true,
+            "label": "label",
+            "validation": "numbers",
+            "placeholder_name": "Placeholder 2"
+          },
+          {
+            "api_id": "CheckBox_3",
+            "height": "13.0",
+            "page": 1,
+            "required": false,
+            "type": "checkbox",
+            "value": "t",
+            "width": "13.0",
+            "x": 260,
+            "y": 80,
+            "name": null,
+            "placeholder_name": "Placeholder 2"
+          }
+        ]
+      ],
+      "files": [
+        {
+          "name": "filename1.pdf",
+          "pages_number": 0
+        },
+        {
+          "name": "filename2.pdf",
+          "pages_number": 0
+        }
+      ],
+      "copied_placeholders": [
+        {
+          "id": "1",
+          "name": "Copied Placeholder 1",
+          "subject": null,
+          "message": null
+        },
+        {
+          "id": "2",
+          "name": "Copied Placeholder 2",
+          "subject": null,
+          "message": null,
+          "preassigned_recipient_name": "Nelson Copied 2",
+          "preassigned_recipient_email": "nelson+copied2@docsketch.com"
+        }
+      ],
+      "placeholders": [
+        {
+          "id": "placeholder_id_1",
+          "name": "Placeholder One",
+          "subject": null,
+          "message": null,
+          "preassigned_recipient_name": "recipient 1",
+          "preassigned_recipient_email": "recipient1@domain.com",
+          "signing_order": 1,
+          "passcode_delivery": {
+            "enabled": false,
+            "methods": null,
+            "expire_after_access": false
+          },
+          "attachment_requests": [
+            {
+              "name": "normal name",
+              "required": true,
+              "url": "https://www.signwell.com/document_attachments/Ln3wLePlMXTGRNZo1JNQuXD7NZZ/?access=676b2a8d-5569-42fc-9480-0ffde7c5a561"
+            }
+          ]
+        },
+        {
+          "id": "placeholder_id_2",
+          "name": "Placeholder 2",
+          "subject": null,
+          "message": null,
+          "signing_order": 2,
+          "passcode_delivery": {
+            "enabled": false,
+            "methods": null,
+            "expire_after_access": false
+          },
+          "attachment_requests": [
+            {
+              "name": "Driver License",
+              "required": false,
+              "url": "https://www.signwell.com/document_attachments/7GBeq13l1KHEp1qwlB5wuD5j4OM/?access=676b2a8d-5569-42fc-9480-0ffde7c5a561"
+            }
+          ]
+        }
+      ],
+      "checkbox_groups": [
+        {
+          "id": "81f6567a-f83f-4e06-820b-2723188a36f8",
+          "group_name": "Group 1",
+          "recipient_id": null,
+          "checkbox_ids": [
+            "CheckBox_3",
+            "CheckBox_4"
+          ],
+          "validation": "minimum",
+          "required": true,
+          "min_value": 1
+        }
+      ],
+      "conditional_rules": [
+        {
+          "id": "da6cb765-a4da-4228-add4-b5e9bd14f02e",
+          "target_id": "TextField_5",
+          "action_type": "require",
+          "action_field_ids": [
+            "CheckBox_3"
+          ],
+          "conditions": [
+            {
+              "condition_type": "any_of",
+              "status": "completed",
+              "join_operator": "and_operator",
+              "field_api_ids": [
+                "TextField_5"
+              ],
+              "position": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "current_page": 2,
+  "next_page": null,
+  "previous_page": 1,
+  "total_count": 2,
+  "total_pages": 2
+}

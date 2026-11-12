@@ -1,0 +1,66 @@
+{
+  "event": {
+    "hash": "cb6c2d9f0fc3b3a9c8ccaed296d5661963626bcd1f629907cfab7a2a09022a43",
+    "time": 1689332249,
+    "type": "document_viewed",
+    "related_signer": {
+      "email": "person@email.com",
+      "name": "Christian Jordan"
+    }
+  },
+  "data": {
+    "object": {
+      "id": "a692e1ce-9929-4541-adc7-61932bab39d3",
+      "apply_signing_order": false,
+      "archived": false,
+      "copied_contacts": [],
+      "custom_requester_name": null,
+      "custom_requester_email": null,
+      "created_at": "2022-08-19T00:21:48Z",
+      "decline_redirect_url": null,
+      "embedded": false,
+      "embedded_edit_url": "",
+      "expires_in": null,
+      "fields": [
+        [
+          {
+            "api_id": "Signature_1",
+            "page": 1,
+            "required": true,
+            "type": "Signature",
+            "value": "",
+            "width": "112.0",
+            "height": "32.0",
+            "x": 375,
+            "y": 206.5,
+            "recipient_id": "1"
+          }
+        ]
+      ],
+      "message": "<p>Hey there,</p><p>Please review and complete this document. You can click on the document below to get started.</p>",
+      "metadata": {},
+      "name": "Example contract",
+      "recipients": [
+        {
+          "id": "1",
+          "email": "person@email.com",
+          "name": "Christian Jordan"
+        }
+      ],
+      "redirect_url": null,
+      "reminders": null,
+      "requester_email_address": "requestor@email.com",
+      "status": "Sent",
+      "subject": "Please complete this example agreement",
+      "test_mode": false,
+      "updated_at": "2022-08-19T00:22:29Z",
+      "files": [
+        {
+          "name": "example-contract.docx",
+          "pages_number": 1
+        }
+      ]
+    },
+    "account_id": "7c98753-0acc-46ab-84b0-e96d085983e0"
+  }
+}

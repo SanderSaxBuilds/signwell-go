@@ -1,0 +1,39 @@
+{
+  "event": {
+    "hash": "86e067226f1e0001636c805f22091ab81381e1ce5c640549515ce42b5acdecac",
+    "time": 1689332249,
+    "type": "document_sms_failed",
+    "related_recipient": {
+      "id": "1",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "phone_number_masked": "+1 ******1234",
+      "delivery_method": "email_and_sms"
+    }
+  },
+  "data": {
+    "object": {
+      "id": "a692e1ce-9929-4541-adc7-61932bab39d3",
+      "status": "Sent",
+      "name": "Example contract",
+      "recipients": [
+        {
+          "id": "1",
+          "email": "jane@example.com",
+          "name": "Jane Doe",
+          "delivery_method": "email_and_sms",
+          "sms": {
+            "phone_number_masked": "+1 ******1234",
+            "send_sms": false,
+            "send_sms_delay": 0,
+            "delivery_status": "failed",
+            "message_type": "invite",
+            "failed": true,
+            "failed_details": "SMS delivery failed (provider error 30003)"
+          }
+        }
+      ]
+    },
+    "account_id": "7c98753-0acc-46ab-84b0-e96d085983e0"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "2851644b-8c61-4901-ab97-43fee9106bec",
+  "archived": false,
+  "created_at": "2026-09-29T15:21:53Z",
+  "embedded_edit_url": "https://www.signwell.com/edit/template/139ab7e6-dc2a-45f5-8e6f-dc6813af03c5/",
+  "language": "en",
+  "name": "satisfaction_twilight/voluptatem.doc",
+  "requester_email_address": "70_loggins@stehr.example",
+  "status": "Available",
+  "template_link": "https://www.signwell.com/new_doc/twrqD66X4uZEf9cK/",
+  "updated_at": "2026-09-29T15:21:53Z",
+  "allow_decline": null,
+  "allow_reassign": null,
+  "api_application_id": null,
+  "decline_redirect_url": null,
+  "expires_in": null,
+  "redirect_url": null,
+  "reminders": null,
+  "metadata": null,
+  "apply_signing_order": true,
+  "message": "Soluta quo quos sunt.",
+  "subject": "delectus",
+  "fields": [
+    [
+      {
+        "api_id": "Signature_55",
+        "height": "32.0",
+        "page": 1,
+        "required": true,
+        "type": "signature",
+        "value": null,
+        "width": "112.0",
+        "x": 1.1,
+        "y": 1.1,
+        "placeholder_name": "Supah Metron 1"
+      },
+      {
+        "api_id": "Signature_56",
+        "height": "32.0",
+        "page": 2,
+        "required": true,
+        "type": "signature",
+        "value": null,
+        "width": "112.0",
+        "x": 1.1,
+        "y": 1.1,
+        "placeholder_name": "Isis Ix 2"
+      }
+    ]
+  ],
+  "files": [
+    {
+      "name": "et.txt",
+      "pages_number": 2
+    }
+  ],
+  "copied_placeholders": [
+    {
+      "id": "3",
+      "name": "General Storm 3",
+      "subject": null,
+      "message": null
+    },
+    {
+      "id": "4",
+      "name": "Mr Question 4",
+      "subject": null,
+      "message": null,
+      "preassigned_recipient_name": "Margarito Bechtelar",
+      "preassigned_recipient_email": "lianne@king.example"
+    }
+  ],
+  "placeholders": [
+    {
+      "id": "1",
+      "name": "Supah Metron 1",
+      "subject": null,
+      "message": null,
+      "preassigned_recipient_name": "Sanford Kerluke",
+      "preassigned_recipient_email": "virgil@stanton.test",
+      "signing_order": 1,
+      "passcode_delivery": {
+        "enabled": false,
+        "methods": null,
+        "expire_after_access": false
+      },
+      "attachment_requests": [
+        {
+          "name": "fruit_distant/illum.odp",
+          "required": true,
+          "url": "https://www.signwell.com/document_attachments/j05NK9qOp0IEE7XdARMecPyjRQ4/?access=36f868ae-dbee-4e81-b7dd-44d11e552c71"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Isis Ix 2",
+      "subject": null,
+      "message": null,
+      "signing_order": 2,
+      "passcode_delivery": {
+        "enabled": false,
+        "methods": null,
+        "expire_after_access": false
+      },
+      "attachment_requests": []
+    }
+  ],
+  "checkbox_groups": [
+    {
+      "id": "27e08385-38fa-4d1b-a029-fa85143ff962",
+      "group_name": null,
+      "recipient_id": null,
+      "checkbox_ids": [
+        "CheckBox_57"
+      ],
+      "validation": null,
+      "required": false
+    }
+  ],
+  "conditional_rules": [
+    {
+      "id": "c1cf2286-0591-4bfb-8035-4ccba4dc1364",
+      "target_id": "employment_status",
+      "action_type": "require",
+      "action_field_ids": [
+        "manager_name"
+      ],
+      "conditions": [
+        {
+          "condition_type": "any_of",
+          "status": "completed",
+          "join_operator": "and_operator",
+          "field_api_ids": [
+            "employment_status"
+          ],
+          "position": 1
+        }
+      ]
+    }
+  ]
+}

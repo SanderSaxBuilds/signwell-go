@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "base": [
+      "Document in 'completed' status cannot have recipients managed. Only sent, viewed, pending, or bounced documents are eligible."
+    ]
+  }
+}

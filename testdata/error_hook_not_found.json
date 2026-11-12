@@ -1,0 +1,10 @@
+{
+  "message": "Not found",
+  "meta": {
+    "error": "record_not_found",
+    "message": "Couldn't find the hook requested",
+    "messages": [
+      "Couldn't find the hook requested"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "event": {
+    "hash": "74d69c402033f485daa25075b91079a5434881e340d3cbdc5cdfffdd092b53d9",
+    "time": 1761663600,
+    "type": "template_available"
+  },
+  "data": {
+    "object": {
+      "apply_signing_order": false,
+      "message": "<p>Hey there,</p><p>Please review and complete this document.</p>",
+      "subject": "Please complete Example contract",
+      "id": "8f2c1e4a-5b7d-4c3e-9a1f-2d6b8e0c4f71",
+      "archived": false,
+      "created_at": "2025-10-20T14:02:11Z",
+      "language": "en",
+      "name": "Example contract template",
+      "requester_email_address": "requestor@email.com",
+      "status": "Available",
+      "template_link": "https://www.signwell.com/new_doc/zUW1c47V0qKnSVOc/",
+      "updated_at": "2025-10-20T14:05:42Z",
+      "allow_decline": true,
+      "allow_reassign": true,
+      "api_application_id": null,
+      "decline_redirect_url": null,
+      "expires_in": null,
+      "redirect_url": null,
+      "reminders": true,
+      "metadata": {},
+      "fields": [
+        [
+          {
+            "api_id": "TextField_1",
+            "height": "19.0",
+            "page": 1,
+            "required": true,
+            "type": "text",
+            "value": "",
+            "width": "86.0",
+            "x": 60.0,
+            "y": 80.0,
+            "fixed_width": false,
+            "label": "Full name",
+            "validation": "no_text_validation",
+            "placeholder_name": "Signer"
+          },
+          {
+            "api_id": "TextField_2",
+            "height": "19.0",
+            "page": 1,
+            "required": true,
+            "type": "text",
+            "value": "",
+            "width": "86.0",
+            "x": 60.0,
+            "y": 120.0,
+            "fixed_width": false,
+            "label": "Agreement number",
+            "validation": "custom_regex",
+            "validation_regex": "^[A-Z]{3}-[0-9]{4}$",
+            "validation_regex_error_message": "Use the format ABC-1234",
+            "placeholder_name": "Signer",
+            "custom_validation_pattern": "^[A-Z]{3}-[0-9]{4}$",
+            "custom_validation_message": "Use the format ABC-1234"
+          },
+          {
+            "api_id": "CheckBox_1",
+            "height": "19.0",
+            "page": 2,
+            "required": true,
+            "type": "checkbox",
+            "value": null,
+            "width": "19.0",
+            "x": 60.0,
+            "y": 640.0,
+            "name": null,
+            "placeholder_name": "Signer",
+            "signing_elements_group_id": "503b6e63-eaa8-4133-bf58-8378076412e1"
+          },
+          {
+            "api_id": "CheckBox_2",
+            "height": "19.0",
+            "page": 2,
+            "required": true,
+            "type": "checkbox",
+            "value": null,
+            "width": "19.0",
+            "x": 100.0,
+            "y": 640.0,
+            "name": null,
+            "placeholder_name": "Signer",
+            "signing_elements_group_id": "503b6e63-eaa8-4133-bf58-8378076412e1"
+          }
+        ]
+      ],
+      "files": [
+        {
+          "name": "example-contract.pdf",
+          "pages_number": 2
+        }
+      ],
+      "copied_placeholders": [],
+      "placeholders": [
+        {
+          "id": "1",
+          "name": "Signer",
+          "subject": null,
+          "message": null,
+          "signing_order": 1,
+          "passcode_delivery": {
+            "enabled": false,
+            "methods": null,
+            "expire_after_access": false
+          },
+          "attachment_requests": []
+        }
+      ],
+      "checkbox_groups": [
+        {
+          "id": "503b6e63-eaa8-4133-bf58-8378076412e1",
+          "group_name": "Terms",
+          "recipient_id": null,
+          "checkbox_ids": [
+            "CheckBox_1",
+            "CheckBox_2"
+          ],
+          "validation": null,
+          "required": false
+        }
+      ],
+      "conditional_rules": []
+    },
+    "account_id": "7c98753-0acc-46ab-84b0-e96d085983e0",
+    "workspace_id": "7c98753-0acc-46ab-84b0-e96d085983e0"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "errors": {
+    "custom_requester_email": [
+      "is invalid"
+    ],
+    "custom_requester_name": [
+      "is too long (maximum is 100 characters)"
+    ],
+    "decline_redirect_url": [
+      "is not a valid URL"
+    ],
+    "redirect_url": [
+      "is not a valid URL"
+    ],
+    "expires_in": [
+      "must be less than or equal to 365"
+    ],
+    "metadata": [
+      "The key/value pairs must not exceed 50",
+      "Check the following keys: [qgtxtpsnyxjwzvbzhnmrjziscxsmgcugpqanuygve], length needs to be less than 40 characters",
+      "Check the value of the following keys: [ke50], length needs to be less than 500 characters and must be a string"
+    ],
+    "api_application_id": [
+      "The provided API application id is invalid"
+    ],
+    "subject": [
+      "is too long (maximum is 255 characters)"
+    ],
+    "message": [
+      "is too long (maximum is 4000 characters)"
+    ],
+    "recipients": {
+      "duplicated_ids": "These ids are duplicated: recipient_id_1.",
+      "duplicated_emails": "These emails are duplicated: recipient1domain.com.",
+      "recipient_1": {
+        "name": [
+          "is too long (maximum is 255 characters)"
+        ],
+        "email": [
+          "format is invalid."
+        ]
+      },
+      "recipient_2": {
+        "email": [
+          "format is invalid."
+        ]
+      }
+    },
+    "copied_contacts": {
+      "copied_contact_1": {
+        "name": [
+          "is too long (maximum is 255 characters)"
+        ],
+        "email": [
+          "format is invalid."
+        ]
+      },
+      "copied_contact_2": {
+        "email": [
+          "format is invalid.",
+          "is already a recipient"
+        ]
+      }
+    },
+    "attachment_requests": {
+      "invalid_ids": "These recipient ids are not present in the recipients array: [recipient_id_3]"
+    },
+    "fields": {
+      "duplicated_api_ids": "These api ids are duplicated: CheckBox_2.",
+      "invalid_ids": "These recipient ids are not present in the recipients array: [recipient_id_2, recipient_id_3]",
+      "file_1": {
+        "field_1": {
+          "date_format": [
+            "Not allowed for text."
+          ],
+          "lock_sign_date": [
+            "Not allowed for text."
+          ]
+        }
+      },
+      "file_2": {
+        "field_1": {
+          "date_format": [
+            "Not allowed for checkbox."
+          ],
+          "fixed_width": [
+            "Not allowed for checkbox."
+          ],
+          "validation": [
+            "Not allowed for checkbox."
+          ],
+          "label": [
+            "Not allowed for checkbox."
+          ],
+          "lock_sign_date": [
+            "Not allowed for checkbox."
+          ]
+        },
+        "field_2": {
+          "invalid_date_value": "DateField value must be in Iso8601 format.",
+          "fixed_width": [
+            "Not allowed for date."
+          ],
+          "validation": [
+            "Not allowed for date."
+          ],
+          "label": [
+            "Not allowed for date."
+          ],
+          "date_format": [
+            "Allowed formats for date fields are: MM/DD/YYYY | DD/MM/YYYY | YYYY/MM/DD | Month DD, YYYY | MM/DD/YYYY hh:mm:ss a"
+          ]
+        },
+        "field_3": {
+          "date_format": [
+            "Not allowed for initials."
+          ],
+          "fixed_width": [
+            "Not allowed for initials."
+          ],
+          "validation": [
+            "Not allowed for initials."
+          ],
+          "label": [
+            "Not allowed for initials."
+          ],
+          "lock_sign_date": [
+            "Not allowed for initials."
+          ]
+        },
+        "field_4": {
+          "date_format": [
+            "Not allowed for signature."
+          ],
+          "fixed_width": [
+            "Not allowed for signature."
+          ],
+          "validation": [
+            "Not allowed for signature."
+          ],
+          "label": [
+            "Not allowed for signature."
+          ],
+          "lock_sign_date": [
+            "Not allowed for signature."
+          ]
+        }
+      }
+    },
+    "checkbox_groups": {
+      "min_value_negative": "The min value must be greater than or equal to 0 in the checkbox group Group 1"
+    },
+    "files": {
+      "file_1": {
+        "file_data": [
+          "At least one of file_url or file_base64 should be present"
+        ]
+      },
+      "file_2": {
+        "file_data": [
+          "Only one of file_url or file_base64 should be present, not both"
+        ]
+      },
+      "file_3": {
+        "file_url": [
+          "is not a valid URL"
+        ]
+      },
+      "file_4": {
+        "file_base64": [
+          "the file type is unsupported, we support the following formats: application/msword, application/pdf, application/octet-stream, application/x-ole-storage, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.ms-powerpoint, application/vnd.openxmlformats-officedocument.presentationml.presentation, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/x-iwork-keynote-sffkey, application/x-iwork-numbers-sffnumbers, application/x-iwork-pages-sffpages, image/jpeg, image/png, image/tiff, image/webp, text/html"
+        ]
+      },
+      "file_5": {
+        "name": [
+          "The file extension is invalid."
+        ]
+      },
+      "file_6": {
+        "name": [
+          "can't be blank"
+        ]
+      }
+    }
+  }
+}
